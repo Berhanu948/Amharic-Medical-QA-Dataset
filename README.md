@@ -117,10 +117,22 @@ The repository distinguishes the **final released dataset** from supplementary r
 The principal released dataset is:AmhMedQA.csv
 Supplementary code, notebooks, intermediate files, or experimental results, if included in the repository, are provided separately and should not be considered part of the final dataset release.
 
-**Citation**
+## Citation
 
-A recommended citation format will be provided once the associated work is formally published.
+If you use the AmhMedQA dataset in your research, please cite:
 
+```bibtex
+@dataset{bogale2026amhmedqa,
+  author    = {Bogale Desta, Berhanu and
+               Tegegne Asfaw, Tesfa and
+               Teferra Abate, Solomon and
+               Belay Gebremeskel, Gebeyehu},
+  title     = {AmhMedQA: An Amharic Medical Question-Answer Dataset},
+  year      = {2026},
+  publisher = {GitHub},
+  url       = {https://github.com/Berhanu948/Amharic-Medical-QA-Dataset}
+}
+```
 **Ethical and Responsible Use**
 
 AmhMedQA.csv is intended for academic and research purposes. Users should consider the potential consequences of applying automated NLP systems to medical information.
