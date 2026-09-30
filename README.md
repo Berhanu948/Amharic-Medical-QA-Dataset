@@ -52,10 +52,21 @@ When loading the dataset with Python and pandas:
 ```python
 import pandas as pd
 
-df = pd.read_csv("AmhMedQA.csv", encoding="utf-8")
-print(df.head())
-print(df.columns)
+# 1. Load the dataset
+# ------------------------------------------------------------
+
+file_path = "AmhMedQA.csv"
+
+df = pd.read_csv(
+    file_path,
+    encoding="utf-8"
+)
+print("Dataset shape:")
 print(df.shape)
+
+print("\nColumn names:")
+print(df.columns.tolist())
+
 ```
 **Source Provenance**
 
